@@ -3,6 +3,7 @@
 	height: 100vh;
 
 	background-color: $primary;
+	box-shadow: 5px 0 15px rgba(#050505, .1);
 
 	position: fixed;
 	top: 0;
@@ -13,7 +14,7 @@
 .sidebar__header {
 	height: 180px;
 	background-color: $secondary;
-	box-shadow: 5px 0 15px rgba(#050505, .1);
+
 
 	img {
 		display: block;
@@ -21,4 +22,15 @@
 		height: 100%;
 		object-fit: cover;
 	}
+}
+
+.sidebar__content {
+	padding: 0 2rem;
+	margin-top: -5rem;
+}
+
+.sidebar__footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 2rem;
 }
